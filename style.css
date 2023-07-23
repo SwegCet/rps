@@ -1,0 +1,56 @@
+body {
+    background-color: #252850;
+}
+#header {
+    display:flex;
+    justify-content: center;
+    color: lightblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#scoreDisplay{
+    padding: 24px;
+    margin: 12px;
+    font-size: 32px;
+    color: lightblue;
+    border: solid;
+    border-radius: 8px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 64px;
+}
+.actions > div {
+    color: aliceblue;
+    font-size: 32px;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 18px;
+}
+.buttons > button {
+    border: solid;
+    border-color:#606e8c;
+    border-radius: 30px;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightblue;
+    background-color: #7f7679;
+    margin: 8px;
+    padding: 8px;
+}
